@@ -10,11 +10,11 @@ spec:
     metadata:
       labels:
         app: frontend-deployment-label
-      spec:
-        containers:
-          - name: app
-            image: raktim00/httpd-server
-            ports:
-              - name: http
-                containerPort: 80
-                protocol: TCP
+    spec:
+      containers:
+        - name: app
+          image: raktim00/httpd-server
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
