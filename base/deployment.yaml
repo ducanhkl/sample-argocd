@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: frontend-deployment-selector
+      app: frontend-deployment-label
   template:
     metadata:
       labels:
